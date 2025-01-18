@@ -3,7 +3,7 @@ import './style.css'
 interface Todo{
   title:string,
   isCompleted:boolean,
-  readonly id:number 
+  readonly id:number|string 
 }
 
 const todos:Todo[]=[];   // array stored the todolist
